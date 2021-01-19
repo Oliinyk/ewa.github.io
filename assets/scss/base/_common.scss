@@ -1,0 +1,25 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+	outline: none!important;
+}
+img {image-orientation: from-image;}
+html, body {
+	background-color: #fff;
+	max-width: 100%;
+	position: relative;
+	margin: 0;
+}
+a, a:hover, a:focus {
+	color: inherit;
+	transition: all .5s;
+	text-decoration: none;
+}
+a:hover, button:hover {opacity: 0.7;}
+button, button:hover {
+	transition: all .5s;
+	outline: none;
+}
+p {margin:0;}
+
+ul {margin:0;padding:0;list-style:none;}
+picture {display: block;}
