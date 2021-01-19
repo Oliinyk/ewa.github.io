@@ -208,7 +208,7 @@ gulp.task('production', function(callback) {
     'imageToWebp',
     ['useref', 'jsNoCombined', 'images', 'fonts'],
     'minify',
-    'critical',
+    //'critical',
     callback
   )
 })
